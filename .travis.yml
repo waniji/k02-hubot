@@ -1,0 +1,7 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: jvbuB1zqHujUQ0jP5cbA+EF/xOg8k2wen1CK/4JL4obA+nCGUZ83/m+WVT4YpipQ5q1LxgeYjPiRX/Uy1xbLh1jefgk0uRfb1M36i3qEDRk0hTh8+Vt+VcehcCj+anEPnmpX8v79D5iPtxz+cMrn4GC/VYJ/Pucg1AU+KJHVy0M=
+  app: k02-hubot
+  on:
+    repo: waniji/k02-hubot
