@@ -1,10 +1,8 @@
 language: node_js
 node_js:
-    - '0.10'
+- '0.10'
 deploy:
   provider: heroku
-  api_key:
-    secure: jvbuB1zqHujUQ0jP5cbA+EF/xOg8k2wen1CK/4JL4obA+nCGUZ83/m+WVT4YpipQ5q1LxgeYjPiRX/Uy1xbLh1jefgk0uRfb1M36i3qEDRk0hTh8+Vt+VcehcCj+anEPnmpX8v79D5iPtxz+cMrn4GC/VYJ/Pucg1AU+KJHVy0M=
+  api_key: cxq1c0kK0cq4un4lFaLSJyh4Gh5vnj0NPFszBOYETWI/pGD4hFLSxLMccVZoNP5sQE82+lvcvtxn+O0j2JNvtTKdyBzReJNz25a/3moKYC9O6WY3M/6ZTbMGk8xMsfl6dRlq6tyriZeUBkCXBtLCWW3vvkGzeg67eEXRDd9oIF8=
   app: k02-hubot
-  on:
-    repo: waniji/k02-hubot
+
